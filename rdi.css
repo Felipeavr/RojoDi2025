@@ -553,7 +553,7 @@ img.imagenlema3 {
 	height: 100%;
 	/*border: 2px solid white;*/
 	border-right: 0px;
-	background: rgba(185, 182, 176, .6);
+	background: rgba(225, 225, 225, .6);
 	z-index: 200;
 	display: flex;
 	flex-direction: column;
@@ -571,7 +571,7 @@ img.imagenlema3 {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	background: rgba(199, 197, 194, 0.6);
+	background: rgba(225, 225, 225, 0.6);
 	/* border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;*/
 }
