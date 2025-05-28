@@ -94,7 +94,7 @@ body {
 	height: 100px;
 	border-radius: 50%;
 	border: 10px solid #fff;
-	border-top-color: #cd2e2e;
+	border-top-color: #e4362d;
 	position: relative;
 	animation: loading 0.75s ease infinite;
 }
