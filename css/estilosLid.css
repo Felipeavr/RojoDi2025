@@ -53,7 +53,7 @@
 
 .slider .slides {
     position: absolute;
-    top: 80%;
+    top: 75%;
     /* transform: translateY(-50%);*/
     width: 120px;
     height: 120px;
