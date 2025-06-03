@@ -128,7 +128,7 @@
     top: calc(50%-40vh);
     display: flex;
     justify-content: space-between;
-    width: 72%;
+    width: 62%;
     gap: 20px;
     z-index: 9001;
 }
