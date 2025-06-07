@@ -1262,7 +1262,7 @@ p#ubica {
 	height: 80px;
 	display: flex;
 	flex-direction: row;
-	margin: 8px auto 5px auto;
+	margin: 25px auto 5px auto;
 	/*background: orange;*/
 
 }
@@ -1311,7 +1311,7 @@ p#ubica {
 	display: flex;
 	flex-direction: row;
 	/*background: orange;*/
-	margin: 5px auto 5px 0;
+	margin: 20px auto 5px 0;
 
 }
 
