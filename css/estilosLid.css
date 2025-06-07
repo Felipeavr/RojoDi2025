@@ -6,7 +6,12 @@
 }
 
 
-
+@font-face {
+	font-family: 'azo-sans';
+	src: url('fonts/AzoSans-Regular.otf')format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
 
 
 .containerPort {
@@ -248,6 +253,7 @@
 .content h2 {
     font-size: 4em;
     color: #fff;
+    font-family: 'azo-sans';
 }
 
 .content p {
