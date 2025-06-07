@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: 'azo-sans';
-	src: url('fonts/AzoSans-Regular.otf')format("opentype");
+	src: url('../fonts/AzoSans-Regular.otf')format("opentype");
 	font-style: normal;
 	font-weight: 400;
 }
