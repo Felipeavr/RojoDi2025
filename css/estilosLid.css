@@ -180,7 +180,7 @@
     top: calc(50%-40vh);
     display: flex;
     justify-content: space-between;
-    width: 62%;
+    width: 72%;
     gap: 20px;
     z-index: 9001;
 }
