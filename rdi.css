@@ -255,8 +255,8 @@ body {
 .subtitle {
 	font-family: 'SSprolight';
 	font-size: 11px;
-	text-align: right;
-	margin-left: 1px;
+	text-align: center;
+	margin-left: 17px;
 	color: #999999;
 	font-weight: 300;
 	position: absolute;
@@ -2263,6 +2263,8 @@ li:hover {
 		bottom: -53px;
 	}
 
+	
+
 
 
 
@@ -2305,6 +2307,8 @@ li:hover {
 		width: 80%;
 
 	}
+
+	
 
 }
 
