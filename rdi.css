@@ -194,7 +194,7 @@ body {
 	background-size: cover;
 	background-position: center center;
 	z-index: -5;
-	opacity: .5;
+	opacity: .3;
 	overflow: hidden;
 	padding-bottom: 200px;
 }
@@ -553,7 +553,7 @@ img.imagenlema3 {
 	height: 100%;
 	/*border: 2px solid white;*/
 	border-right: 0px;
-	background: rgba(225, 225, 225, .6);
+	background: rgba(225, 225, 225, .7);
 	z-index: 200;
 	display: flex;
 	flex-direction: column;
@@ -1008,7 +1008,7 @@ p#ubica {
 	background-size: cover;
 	background-position: center center;
 	z-index: -5;
-	opacity: .3;
+	opacity: .5;
 	overflow: hidden;
 }
 
@@ -1040,7 +1040,7 @@ p#ubica {
 	background-size: cover;
 	background-position: center center;
 	z-index: -5;
-	opacity: .4;
+	opacity: .5;
 	overflow: hidden;
 }
 .contenedorNuevo01 {
@@ -1072,7 +1072,7 @@ p#ubica {
 	background-size: cover;
 	background-position: center center;
 	z-index: -5;
-	opacity: .5;
+	opacity: .3;
 	/*overflow: hidden;*/
 	padding-bottom: 200px;
 	background-color: transparent;
@@ -1179,7 +1179,7 @@ p#ubica {
 	width: 50%;
 	min-width: 800px;
 	height: auto;
-	background: rgb(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.5);
 	margin: 70px auto 0px 20%;
 
 
@@ -1194,7 +1194,7 @@ p#ubica {
 	flex-wrap: wrap;
 	width: 97%;
 	height: auto;
-
+	padding: 60px 0px;
 	/*background: yellow;*/
 	margin: 0 auto;
 	overflow: hidden;
@@ -1206,12 +1206,15 @@ p#ubica {
 }
 
 .text-address-1 {
-	background: transparent;
+	background:transparent;
 	width: 45%;
 	min-width: 380px;
 	margin: 0 auto;
 	height: auto;
 	border-right: 1px solid rgb(197, 60, 52);
+
+	
+
 	/*background: #5cb85c;*/
 }
 
@@ -1513,7 +1516,7 @@ p#ubica {
 
 h3 {
 	width: 100%;
-	margin: 70px 0 0 0px !important;
+	margin: 20px 0 0 0px !important;
 }
 
 /*fin prueba contacto*/
