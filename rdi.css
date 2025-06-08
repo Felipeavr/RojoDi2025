@@ -400,7 +400,7 @@ span#rojo {
 
 .logocontacto {
 	margin-left: 18px;
-	margin-top: 250px;
+	margin-top: 200px;
 	margin-bottom: 20px;
 	width: 50px;
 
@@ -553,7 +553,7 @@ img.imagenlema3 {
 	height: 100%;
 	/*border: 2px solid white;*/
 	border-right: 0px;
-	background: rgba(225, 225, 225, .7);
+	background: rgba(209, 208, 208, .8);
 	z-index: 200;
 	display: flex;
 	flex-direction: column;
@@ -1417,7 +1417,7 @@ p#ubica {
 	display: flex;
 	flex-direction: row;
 	/*background: orange;*/
-	margin: 115px auto 0 auto;
+	margin: 65px auto 0 auto;
 
 }
 
@@ -2508,7 +2508,7 @@ li:hover {
 	}
 
 	.contacto05 {
-		margin: 0px auto auto 25px;
+		margin: 50px auto auto 25px;
 		height: 45px;
 	}
 
@@ -2528,6 +2528,7 @@ li:hover {
 		min-width: 400px;
 		margin-left: 5%;
 		border-right: 1px solid rgb(197, 60, 52);
+		
 	}
 
 
@@ -2634,6 +2635,7 @@ li:hover {
 		width: 100%;
 		margin: auto;
 		min-width: none;
+		
 	}
 
 	.text-address-1 {
