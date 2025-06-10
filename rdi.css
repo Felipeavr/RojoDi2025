@@ -400,7 +400,7 @@ span#rojo {
 
 .logocontacto {
 	margin-left: 18px;
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-bottom: 20px;
 	width: 50px;
 
@@ -1008,7 +1008,7 @@ p#ubica {
 	background-size: cover;
 	background-position: center center;
 	z-index: -5;
-	opacity: .6;
+	opacity: .5;
 	overflow: hidden;
 }
 
@@ -1040,7 +1040,7 @@ p#ubica {
 	background-size: cover;
 	background-position: center center;
 	z-index: -5;
-	opacity: .6;
+	opacity: .5;
 	overflow: hidden;
 }
 .contenedorNuevo01 {
