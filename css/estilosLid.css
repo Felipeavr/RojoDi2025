@@ -196,12 +196,13 @@
 }
 .slider .slides:nth-child(25) {
     background-size: cover;
-    left: calc(70% + 2770px);
+    left: calc(70% + 2900px);
     opacity: 0;
 }
+
 .slider .slides:nth-child(26) {
     background-size: cover;
-    left: calc(70% + 2900px);
+    left: calc(70% + 3030px);
     opacity: 0;
 }
 
