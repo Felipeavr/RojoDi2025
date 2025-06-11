@@ -44,7 +44,7 @@
     background: #ccc;
     border-radius: 0px;
     width: 70%;
-    height: 75%;
+    height: 70%;
     left: 15%;
     top: 10%;
     border: 0px white solid;
@@ -199,6 +199,11 @@
     left: calc(70% + 2770px);
     opacity: 0;
 }
+.slider .slides:nth-child(26) {
+    background-size: cover;
+    left: calc(70% + 2900px);
+    opacity: 0;
+}
 
 .buttons {
     position: absolute;
@@ -281,6 +286,14 @@
 }
 
 /*responsive*/
+
+@media screen and (max-width: 1366px) {
+    .slider .slides {
+		width: 110px;
+		height: 110px;
+	}
+
+}
 	
 
 @media screen and (max-width: 1024px) {
