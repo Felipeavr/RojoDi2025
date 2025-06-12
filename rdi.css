@@ -675,26 +675,28 @@ img.imagenlema3 {
 }
 
 .diseno {
-	font-size: 68px;
+	font-size: 60px;
 	padding-top: 15px;
 }
 
 .paratu {
-	font-size: 57px;
+	font-size: 51px;
 	margin-top: -30px;
+	letter-spacing: 0px;
 }
 
 .marca {
-	font-size: 68px;
+	font-size: 61px;
 	margin-top: -30px;
+	letter-spacing: 0px;
 }
 
 #cruz {
 	width: 0;
 	font-family: 'Azsblack';
 	font-size: 40px;
-	margin-top: -9px;
-	margin-left: 5px;
+	margin-top: -10px;
+	margin-left: 3px;
 	background: orange;
 	position: absolute;
 
@@ -716,13 +718,35 @@ img.imagenlema3 {
 	height: auto;
 	font-family: 'azosanslig';
 	font-style: normal;
-	font-size: 24px;
+	font-size: 22px;
 	color: white;
 	text-transform: uppercase;
 	text-align: left;
-
-
 }
+
+.vitrinas1,.vitrinas2,.vitrinas3{
+	width: 90%;
+	height: auto;
+	font-family: 'azosanslig';
+	font-style: normal;
+	font-size: 22px;
+	color: white;
+	text-transform: uppercase;
+	text-align: left;
+}
+.vitrinas1 {
+	letter-spacing: 0.5px;
+}
+
+.vitrinas2, .vitrinas3 {
+	margin-top: -20px;
+}
+
+.vitrinas2 {
+	letter-spacing: 0.2px;
+}
+
+
 
 .texttres {
 	display: flex;
@@ -2210,6 +2234,37 @@ li:hover {
 	margin-left: 25px;
 
 }
+
+/*
+
+@keyframes appear {
+	from{
+	opacity:0;
+	scale:0.4;
+	}
+
+to {
+	opacity: 1;
+	scale: 1;
+ }
+}
+
+#block {
+animation: appear 5s linear;
+animation-timeline: view();
+animation-range: entry 0% cover 60%;
+}
+
+.slider{
+	view-timeline-name: .slider;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+	animation-range: entry 25% cover 50%;
+	animation-fill-mode: both;
+}
+*/
 
 @media screen and (min-height: 1536px) and (max-width: 2560px) {
 	.contenedor04 {
