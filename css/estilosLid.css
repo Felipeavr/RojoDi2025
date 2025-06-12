@@ -44,7 +44,7 @@
     background: #ccc;
     border-radius: 0px;
     width: 70%;
-    height: 70%;
+    height: 75%;
     left: 15%;
     top: 10%;
     border: 0px white solid;
@@ -236,7 +236,7 @@
 
 .buttons {
     position: absolute;
-    top: 45%;
+    top: 47%;
     display: flex;
     justify-content: space-between;
     width: 72%;
@@ -276,7 +276,7 @@
 }
 
 .buttons span:active {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .content {
@@ -294,7 +294,7 @@
 }
 
 .content p {
-    width: 40%;
+    width: auto;
 }
 
 .slider .slides:nth-child(1) .content,
@@ -304,14 +304,26 @@
     transition-delay: 0.5s;
 }
 
+.content {
+    position: absolute;
+  bottom: 2%;
+  left: 2%;
+   font-family: 'azo-sans';
+}
+
 .content h2 {
-    font-size: 4em;
+   
+    font-size: 2em;
     color: #fff;
     font-family: 'azo-sans';
+   
+    
+  
 }
 
 .content p {
     color: #fff;
+
 }
 
 /*responsive*/
