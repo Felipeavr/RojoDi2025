@@ -73,7 +73,7 @@
 .tarjeta {
     width: 350px;
     height: 440px;
-    background: red;
+    background: #B42428;
     display: flex;
     flex-direction: column;
 }
