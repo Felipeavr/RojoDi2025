@@ -144,10 +144,11 @@
      margin-top: 30px;
      letter-spacing: .3px;
 }
-.logo {
+.logot {
     width: 40%;
     height: 100%;
-    background-color: orange;
+    background-color:transparent;
+    
 }
 .links {
  width: 350px;
@@ -155,11 +156,14 @@
  display:flex;
  flex-direction: row;
  padding-top: 20px;
-  padding-bottom: 20px;
+ padding-bottom: 20px;
+ position: relative;
+ background:transparent;
+ 
 
 }
 .linkdos {
- width: 60%;
+ width: 70%;
  height: 200px;
  display:flex;
  flex-direction: column;
@@ -178,7 +182,7 @@
     color: red;
     font-family: 'azo-sans';
     font-size: 16px;
-    margin: 14px 10px auto 40px;
+    margin: 14px 10px auto 30px;
 }
 .circulo {
   height: 35px;
@@ -221,7 +225,7 @@
     color:#7D7D7D;
     font-family: 'azosanslig';
     font-size: 14px;
-    margin: 16px 10px auto 33px;
+    margin: 16px 10px auto 23px;
 }
 .instagram {
     width: 100%;
@@ -235,7 +239,7 @@
     color:#7D7D7D;
     font-family: 'azosanslig';
     font-size: 14px;
-    margin: 16px 10px auto 14px;
+    margin: 16px 10px auto 4px;
 }
 
 .circuloi {
@@ -254,7 +258,6 @@
   color: white;
 }
 
-
 .web {
     width: 100%;
     height: 50px;
@@ -267,7 +270,7 @@
     color:#7D7D7D;
     font-family: 'azosanslig';
     font-size: 14px;
-    margin: 16px 10px auto 55px;  
+    margin: 16px 10px auto 45px;  
 }
 
 .circulow {
@@ -279,13 +282,9 @@
   box-shadow: 9px 13px 16px -8px rgba(0,0,0,0.83);
 }
 
-.logot {
-    width: 100%;
-    height: 100%;
-   margin-top: 100px;
-}
 .logot img {
     width: 70px;
+    margin: 105px auto auto 30px;
     
 }
 .fa-regular.fa-image {
