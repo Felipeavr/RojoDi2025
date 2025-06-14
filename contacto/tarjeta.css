@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+	font-family: 'azo-sans';
+	src: url('../fonts/AzoSans-Regular.otf')format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'azosanslig';
+	src: url('../fonts/AzoSans-Light.otf')format("opentype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'azosansthin';
+	src: url('fonts/AzoSans-Thin.otf')format("opentype");
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'azosansmd';
+	src: url('../fonts/AzoSans-Medium.otf')format("opentype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SSproregular';
+	src: url('fonts/SourceSansPro-Regular.otf')format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SSprolight';
+	src: url('fonts/SourceSansPro-Light.otf')format("opentype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Azsbold';
+	src: url('fonts/AzoSans-Bold.otf')format("opentype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Azsblack';
+	src: url('fonts/AzoSans-Black.otf')format("opentype");
+	font-weight: 600;
+	font-style: normal;
+}
+.contenedor {
+    
+    width: 350px;
+    height:622px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+.tarjeta {
+    width: 350px;
+    height: 440px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+}
+.links {
+ width: 350px;
+ height: 200px;
+ border: 1px solid red;
+ background-color: #000;
+}
+.texto {
+   width: 200px;
+   height: auto;
+   background:transparent;
+   margin-left: 75px;
+   margin-top: 80px;
+   /*border: 1px solid white;*/
+}
+.rojo,
+.diseno,
+.imagen,
+.glosa {
+    width: 100%;
+    height: auto;
+   
+}
+.rojo p {
+  
+    font-size: 62px;
+    color: white;
+    font-family: "azo-sans";
+    letter-spacing: 10px;
+}
+.diseno p{
+     font-size:38px;
+    color: rgb(0, 0, 0);
+    font-family: "azosanslig";
+    margin-top: -18px;
+    letter-spacing: 11px;
+}
+.imagen p{
+     font-size:40px;
+    color:#BDBDBD;
+    font-family: "azosanslig";
+    margin-top: -14px;
+    letter-spacing: 8px;
+}
+.glosa {
+    font-size:12.7px;
+    color:#ffffff;
+    font-family: "azosanslig"; 
+     margin-top: 20px;
+     letter-spacing: .3px;
+     
+}
+.nombre {
+    font-size:21.5px;
+    color:#ffffff;
+    font-family: "azosansmd"; 
+     margin-top: 100px;
+     letter-spacing: .3px;
+}
+.glosa2 {
+    width: 250px;
+    margin-left: -15px;
+    margin-top: -25px;
+}
+.glosa2 p {
+    font-size:13px;
+    color:#CCCCCC;
+    font-family: "azosanslig"; 
+     margin-top: 30px;
+     letter-spacing: .3px;
+}
