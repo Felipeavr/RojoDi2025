@@ -297,7 +297,13 @@
     color:#7D7D7D;
     font-family: 'azosanslig';
     font-size: 14px;
-    margin: 16px 10px auto 49px;  
+    margin: 16px 10px auto 4px;  
+    
+ }
+ .download {
+    width: 160px;
+    height: auto;
+    margin-left: 85px;
  }
 .circulod {
     
@@ -305,7 +311,8 @@
   width: 35px;
   background-color: #B42428;
   border-radius: 50%;
-  margin-top: 7px;
+  margin-top: -10px;
+  margin-left: -3px;
   box-shadow: 9px 13px 16px -8px rgba(0,0,0,0.83);
 
 }
