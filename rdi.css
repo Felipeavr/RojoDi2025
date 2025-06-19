@@ -2408,7 +2408,7 @@ animation-range: entry 0% cover 60%;
 }
 @media screen and (max-height: 768px) {
 	.cuadroestirado {
-		margin-top: 200px;
+		margin-top: 150px;
 	}
 }
 
