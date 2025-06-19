@@ -2406,11 +2406,14 @@ animation-range: entry 0% cover 60%;
 
 
 }
+
 @media screen and (max-height: 768px) {
 	.cuadroestirado {
 		margin-top: 150px;
 	}
 }
+
+
 
 @media screen and (max-width: 1368px) {
 
@@ -2420,11 +2423,11 @@ animation-range: entry 0% cover 60%;
 	}
 
 	.cuadroestirado {
-		margin-top: 250px;
+		margin-top: 200px;
 	}
 
-	
-	
+
+
 
 
 
@@ -2458,11 +2461,13 @@ animation-range: entry 0% cover 60%;
 		margin-left: 45%;
 	}
 
-	.cintro,.cintro22 {
-		background:rgba(156, 156, 156, 0.8);
+	.cintro,
+	.cintro22 {
+		background: rgba(190, 190, 190, 0.8);
 	}
-    .cintro2 {
-		background-color: rgba(53, 53, 53, 0.5);
+
+	.cintro2 {
+		background-color: rgba(109, 109, 109, 0.5);
 	}
 
 
@@ -2519,7 +2524,33 @@ animation-range: entry 0% cover 60%;
 
 
 }
+@media (min-width: 1024px) and (max-width: 1270px) {
+  .main {
+	width: 90%;
+  }
+  .diseno {
+		font-size: 50px;
+	}
 
+	.paratu {
+		font-size: 42px;
+	}
+
+	.marca {
+		font-size: 51px;
+	}
+
+	.textdos p {
+		font-size: 18px;
+	}
+	.parrafotres {
+		width: 60%;
+		margin-left: 40%;
+	}
+	.main2 {
+		width: 90%;
+	}
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -2534,7 +2565,7 @@ animation-range: entry 0% cover 60%;
 
 
 	.wrapper3 {
-		margin-left: 5%;
+		margin-left: 10%;
 	}
 
 	.simbolocc {
@@ -2550,23 +2581,25 @@ animation-range: entry 0% cover 60%;
 
 	.main {
 		margin-bottom: 100px;
+		width: 90%;
+	}
+
+	.main2 {
+		width: 90%;
 	}
 
 	.contenedor01 {
 		padding-bottom: 100px;
 	}
 
-	.main {
-		width: 90%;
-		/*margin: 0px auto auto auto;*/
+	
+	.wrapper3 {
+		margin-left: 5%;
 	}
 
-	.wrapper3 {
-		margin-left: 2.5%;
+	.cuadroestirado {
+		margin-top: 250px;
 	}
-	 .cuadroestirado {
-        margin-top: 150px;
-    }
 
 }
 
@@ -2618,10 +2651,7 @@ animation-range: entry 0% cover 60%;
 		border-right: 0px solid rgb(197, 60, 52);
 	}
 
-	.main {
-		width: 80%;
-		height: auto;
-	}
+	
 
 	.contenedor01 {
 		height: 100%;
@@ -2776,6 +2806,7 @@ animation-range: entry 0% cover 60%;
 	.txcont03 p {
 		margin-top: 13px !important;
 	}
+
 	.cuadroestirado {
 		margin-top: 100px;
 	}
@@ -2805,7 +2836,7 @@ animation-range: entry 0% cover 60%;
 }
 
 @media screen and (max-width: 530px) {
-	.main {
+	.main,.main2 {
 		width: 100%;
 	}
 
