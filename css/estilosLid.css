@@ -37,6 +37,12 @@
 
 }
 
+.capaslider {
+    width: auto;
+    height: auto;
+    margin-top: 8%;
+}
+
 .slider {
     position: relative;
     inset: 40px 80px 40px 80px;
@@ -234,13 +240,13 @@
     opacity: 0;
 }
 
+
 .buttons {
-    position: absolute;
-    top: 50%;
+    position:absolute ;
+    top: 45%;
     display: flex;
     justify-content: space-between;
     width: 72%;
-
     left: 14%;
     gap: 20px;
     z-index: 9001;
@@ -248,7 +254,7 @@
 
 .buttons span {
     position: relative;
-    left: 0;
+   left: 0;
     width: 50px;
     height: 50px;
     background: #e4362d;
@@ -269,6 +275,7 @@
     transform: rotate(315deg) translate(2px, 2px);
 
 }
+
 
 .buttons span:nth-child(2)::before {
     transform: rotate(135deg) translate(2px, 2px);
@@ -412,6 +419,7 @@
 
 }
 
+
 @media screen and (max-width: 1100px){
     .slider {
         width: 75%;
@@ -430,14 +438,12 @@
 @media screen and (max-width: 1024px) {
     .slider {
         
-     
-  
-        top: 70px;
+      top: 70px;
     }
 
     .buttons {
-        width: 67%;
-        left: 16.5%;
+        width: 77%;
+        left: 11.5%;
         top:30%
     }
 
@@ -474,6 +480,7 @@
   
     .buttons {
         top: 33%;
+       
     }
 
    /* .slider {
@@ -524,16 +531,9 @@
 }
 
 @media (max-width: 640px) {
-    /*  .slider {
-        width: 90%;
-        height: 50%;
-        left: 5%;
-        top: 70px;
-
-    }*/
 
     .buttons {
-        top: 25%;
+        top: 37%;
     }
 
     .slider .slides {
@@ -588,6 +588,7 @@
     }
 
 }
+
 
 @media (max-width: 530px) {
     /*  .slider {
