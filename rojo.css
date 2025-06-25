@@ -2481,9 +2481,7 @@ animation-range: entry 0% cover 60%;
 @media screen and (max-width: 1280px) {
 
 
-	.imagenlema {
-		margin-top: 0px;
-	}
+
 
 	.cycle-overlay {
 		bottom: -45px;
@@ -2534,45 +2532,20 @@ animation-range: entry 0% cover 60%;
 
 }
 
-
-
-
-
-@media screen and (max-width: 1024px) {
-	/*.main {
-		width: 80%;
-	}*/
-
-	.parrafotres {
-		width:100%;
-		margin-left:0%;
+@media screen and (max-width: 1152px){
+	.main {
+		width: 70%;
 	}
-
-	
-
-	.textdos {
-		margin-top: 0px;
-	}
-
 	.wrapper3 {
+		width: 65%;
 		margin-left: 15%;
 	}
-
-	.simbolocc {
-		bottom: 15px;
+	.text-address-1, .text-address-2 {
+		min-width: 300px;
 	}
-	.imagenlema {
-
-	   background:transparent;
-		left: 250px;
-		width: 40px;
-		height: 60px;
-		top: -57px;
-   	}
-	.imagenlema img {
-		width: 100%;
+	.icon04 {
+		width: 60px;
 	}
-	
 	.cintroimg2 {
 		/*background-color: #5cb85c;*/
 		width: 200px;
@@ -2595,12 +2568,101 @@ animation-range: entry 0% cover 60%;
 		margin-top: 2px;
 		width: 190px;
 	} 
+
+	/*
+
+	.cintroimg2 {
+		
+		width: 225px;
+		height: auto;
+		font-size: 3.5em;
+		background-color: orange;
+	}
+	
+   
+   .cintroimg2 .rojo {
+		letter-spacing: 25px;
+	    margin-top: -1px;
+	}
+	
+	.cintroimg2 .disen {
+		letter-spacing: 3.3px;
+		margin-top: -8px;
+	}
+	.cintroimg2 .imag {
+		letter-spacing: 1.8px;
+		margin-top: -8px;
+	}
+	.cintroimg2 .escan {
+		margin-top: 2px;
+		width: 220px;
+	} 
+	.simbolocc {
+		bottom: 5px;
+		right: 10px;
+	}
+*/
+}
+
+@media screen and (max-width: 1100px) {
+    .main {
+		width: 75%;
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	
+	.parrafotres {
+		width:100%;
+		margin-left:0%;
+	}
+	.textdos {
+		margin-top: 0px;
+	}
+	.wrapper3 {
+		margin-left: 15%;
+	}
+	.simbolocc {
+		bottom: 15px;
+	}
+	.imagenlema {
+		display: none;
+	}
+	.cintroimg2 {
+		/*background-color: #5cb85c;*/
+		width: 200px;
+		height: auto;
+		font-size: 3.1em;
+	}
+
+	.cintroimg2 .rojo {
+		letter-spacing: 22px;
+	    margin-top: 0px;
+	}
+
+	.cintroimg2 .disen {
+		letter-spacing: 3px;
+		margin-top: -20px;
+	}
+
+	.cintroimg2 .imag {
+		letter-spacing: 1px;
+		margin-top: -20px;
+	}
+
+	.cintroimg2 .escan {
+		margin-top: 2px;
+		width: 190px;
+	}
+
 	.simbolocc {
 		bottom: 5px;
 		right: 0px;
 	}
 	
-    .wrapper3{
+    .wrapper3 {
 	flex-direction: column;
 	height: auto;
 	justify-content: baseline;
@@ -2610,10 +2672,7 @@ animation-range: entry 0% cover 60%;
 	border-right: 1px solid rgb(197, 60, 52);
 	
 	}
-	.text-address-1{
-		border: 0px;
-		margin-left: 0;
-	}
+	
 
 	.cuadroyellow {
 		width: 90%;
@@ -2648,6 +2707,14 @@ animation-range: entry 0% cover 60%;
 		width: 50px;
 		display: block;
 	}
+
+	.text-address-1 {
+		border-right: 0;
+	}
+	.text-address-2 {
+	
+		margin: 0 auto;
+	}
 		
 	
 
@@ -2677,8 +2744,7 @@ animation-range: entry 0% cover 60%;
 	.cintro2 {
 		background: rgba(185, 185, 185, 0.7);
 	}
-
-	
+		
 
 	.contenedor01 {
 		padding-bottom: 100px;
@@ -2695,7 +2761,12 @@ animation-range: entry 0% cover 60%;
 	.imagenlema {
 		left: 230px;
 	}
+	}
 
+	@media screen and (max-width: 900px){
+	.main{
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 845px) {
@@ -2743,10 +2814,7 @@ animation-range: entry 0% cover 60%;
 
 	}
 
-	.text-address-1 {
-		border-right: 0px solid rgb(197, 60, 52);
-	}
-
+	
 	.contenedor01 {
 		height: 100%;
 	}
@@ -2807,22 +2875,22 @@ animation-range: entry 0% cover 60%;
 		margin-top: 0px;
 		height: 220px;
 	}
-/*
+
 	.textuno p {
-		font-size: 62px;
+		font-size: 50px;
 	}
 
 	p.paratu {
-		font-size: 51.5px;
+		font-size: 42.5px;
 	}
 
 	p.marca {
-		font-size: 62px;
+		font-size: 51px;
 	}
 
 	.textdos p {
-		font-size: 22px;
-	}*/
+		font-size: 18.5px;
+	}
 	/*
 	.logocontacto {
 		display: none;
@@ -2894,8 +2962,8 @@ animation-range: entry 0% cover 60%;
 	}
 
 	.main2 {
-		width: 70%;
-		min-width: 60%;
+		width: 60%;
+		min-width: 50%;
 	}
 
 	.main {
@@ -2905,36 +2973,68 @@ animation-range: entry 0% cover 60%;
 	.cintroimg {
 		margin: 7% auto;
 	}
+	.cintroimg2 {
+		width: 265px;
+		font-size: 4.2em;
+	}
+	.cintroimg2 .rojo {
+		letter-spacing: 28px;
+	    margin-top: 0px;
+	}
+	.cintroimg2 .disen {
+		letter-spacing: 3px;
+		margin-top: -5px;
+	}
+	.cintroimg2 .imag {
+		letter-spacing: 1px;
+		margin-top: -5px;
+	}
+	.cintroimg2 .escan {
+		margin-top: 2px;
+		width: 253px;
+	} 
+	.simbolocc {
+		bottom: 5px;
+		right: 50px;
+	}
+	
 
 	.imagenlema {
-
-	   background:transparent;
-		left: 0px;
-		width: 50px;
-		height: 60px;
-		top: 85px;
-   	}
+	display:block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50px;
+}
 	.imagenlema img {
 		width: 100%;
+	}
+	.wrapper3{
+		margin-left: 20%;
 	}
 
 }
 
 @media screen and (max-width: 700px) {
-	.imagenlema {
-		top: 120px;
-	
+	.textuno p {
+		font-size: 44px;
+	}
+
+	p.paratu {
+		font-size: 38px;
+	}
+
+	p.marca {
+		font-size: 46px;
+	}
+
+	.textdos p {
+		font-size: 16.5px;
 	}
 
 	.parrafotres {
-		
-
 		margin-top: 7px;
 	}
-/*
-	.imagenlemacc {
-		display: block;
-	}*/
 
 	.cintro {
 		padding-bottom: 20px;
@@ -2944,7 +3044,35 @@ animation-range: entry 0% cover 60%;
 	}
 	
 }
-
+@media screen and (max-width: 600px){
+	.main {
+		width: 80%;
+	}
+	.cintroimg2 {
+		width: 230px;
+		font-size: 3.4em;
+	}
+	.cintroimg2 .rojo {
+		letter-spacing: 28px;
+	    margin-top: 0px;
+	}
+	.cintroimg2 .disen {
+		letter-spacing: 5.5px;
+		margin-top: -15px;
+	}
+	.cintroimg2 .imag {
+		letter-spacing: 3.5px;
+		margin-top: -15px;
+	}
+	.cintroimg2 .escan {
+		margin-top: 2px;
+		width: 220px;
+	} 
+	.simbolocc {
+		bottom: 5px;
+		right: 50px;
+	}
+}
 @media screen and (max-width: 530px) {
 
 	.main,
@@ -2994,9 +3122,7 @@ animation-range: entry 0% cover 60%;
 		margin: auto;
 	}
 
-	.imagenlema {
-		top: 150px;
-	}
+	
 
 }
 
