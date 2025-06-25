@@ -2430,32 +2430,32 @@ animation-range: entry 0% cover 60%;
 	}
 
 	.main {
-		width: 70%;
+		width: 65%;
 	}
 
 	.main2 {
-		width: 80%;
+		width: 65%;
 	}
 
 	.diseno {
-		font-size: 50px;
+		font-size: 40px;
 	}
 
 	.paratu {
-		font-size: 42px;
+		font-size: 34px;
 	}
 
 	.marca {
-		font-size: 51px;
+		font-size: 41px;
 	}
 
 	.textdos p {
-		font-size: 18.3px;
+		font-size: 14.7px;
 	}
 
 	.parrafotres {
-		width: 55%;
-		margin-left: 45%;
+		width: 60%;
+		margin-left: 40%;
 	}
 
 	.cintro {
@@ -2469,15 +2469,17 @@ animation-range: entry 0% cover 60%;
 	.cintro22 {
 		background: rgba(190, 190, 190, 0.8);
 	}
-
+	.wrapper3 {
+		margin-left: 17.5%;
+	}
 
 
 }
 
+
+
 @media screen and (max-width: 1280px) {
-	.main {
-		width: 70%;
-	}
+
 
 	.imagenlema {
 		margin-top: 0px;
@@ -2497,7 +2499,7 @@ animation-range: entry 0% cover 60%;
 	}
 
 	.wrapper3 {
-		margin-left: 10%;
+		margin-left: 17.5%;
 	}
 
 	.diseno {
@@ -2515,65 +2517,152 @@ animation-range: entry 0% cover 60%;
 	.textdos p {
 		font-size: 14px;
 	}
+	.cintroimg2{
+		/*background-color: #42d49c;*/
+		width: 250px;
+		font-size: 4em;
+	}
+	.escan {
+		width: 240px;
+	}
+	.simbolocc img {
+		width: 80%;
+		height: 80%;
+	}
+	
+	
 
 }
 
-@media (min-width: 1024px) and (max-width: 1270px) {
-	.main {
-		width: 90%;
-	}
 
-	.diseno {
-		font-size: 50px;
-	}
 
-	.paratu {
-		font-size: 42px;
-	}
-
-	.marca {
-		font-size: 51px;
-	}
-
-	.textdos p {
-		font-size: 18px;
-	}
-
-	.parrafotres {
-		width: 60%;
-		margin-left: 40%;
-	}
-
-	.main2 {
-		width: 90%;
-	}
-}
 
 
 @media screen and (max-width: 1024px) {
-	.main {
+	/*.main {
 		width: 80%;
+	}*/
+
+	.parrafotres {
+		width:100%;
+		margin-left:0%;
 	}
+
+	
 
 	.textdos {
 		margin-top: 0px;
 	}
 
 	.wrapper3 {
-		margin-left: 10%;
+		margin-left: 15%;
 	}
 
 	.simbolocc {
 		bottom: 15px;
 	}
+	.imagenlema {
+
+	   background:transparent;
+		left: 250px;
+		width: 40px;
+		height: 60px;
+		top: -57px;
+   	}
+	.imagenlema img {
+		width: 100%;
+	}
+	
+	.cintroimg2 {
+		/*background-color: #5cb85c;*/
+		width: 200px;
+		height: auto;
+		font-size: 3.1em;
+	}
+	.cintroimg2 .rojo {
+		letter-spacing: 22px;
+	    margin-top: 0px;
+	}
+	.cintroimg2 .disen {
+		letter-spacing: 3px;
+		margin-top: -20px;
+	}
+	.cintroimg2 .imag {
+		letter-spacing: 1px;
+		margin-top: -20px;
+	}
+	.cintroimg2 .escan {
+		margin-top: 2px;
+		width: 190px;
+	} 
+	.simbolocc {
+		bottom: 5px;
+		right: 0px;
+	}
+	
+    .wrapper3{
+	flex-direction: column;
+	height: auto;
+	justify-content: baseline;
+	width: 50%;
+	min-width: 400px;
+	margin-left: 17.5%;
+	border-right: 1px solid rgb(197, 60, 52);
+	
+	}
+	.text-address-1{
+		border: 0px;
+		margin-left: 0;
+	}
+
+	.cuadroyellow {
+		width: 90%;
+		margin: auto 5%;
+		flex-direction: column;
+		height: auto;
+		justify-content: baseline;
+	}
+	.logocontacto {
+		display: none;
+	}
+	.logocontacto {
+		display: none;
+	}
+
+	.contacto04 {
+		margin-left: 25px;
+	}
+
+	.contacto05 {
+		margin: 50px auto auto 25px;
+		height: 45px;
+	}
+
+	.logocontacto2 {
+		display: block;
+		margin-left: 20px;
+		margin-top: 100px;
+		margin-bottom: 20px;
+	}
+	.imagenlema3 img {
+		width: 50px;
+		display: block;
+	}
+		
+	
+
+	
 
 }
 
 @media screen and (max-width: 960px) {
 	.main {
 
-		width: 90%;
+		width: 70%;
 
+	}
+	.main2 {
+		width: 70%;
 	}
 
 	.cintro {
@@ -2589,21 +2678,22 @@ animation-range: entry 0% cover 60%;
 		background: rgba(185, 185, 185, 0.7);
 	}
 
-	.main2 {
-		width: 90%;
-	}
+	
 
 	.contenedor01 {
 		padding-bottom: 100px;
 	}
 
 	.wrapper3 {
-		margin-left: 5%;
+		margin-left: 15%;
 	}
 
 	.cuadroestirado {
 		margin-top: 250px;
 
+	}
+	.imagenlema {
+		left: 230px;
 	}
 
 }
@@ -2717,7 +2807,7 @@ animation-range: entry 0% cover 60%;
 		margin-top: 0px;
 		height: 220px;
 	}
-
+/*
 	.textuno p {
 		font-size: 62px;
 	}
@@ -2732,8 +2822,8 @@ animation-range: entry 0% cover 60%;
 
 	.textdos p {
 		font-size: 22px;
-	}
-
+	}*/
+	/*
 	.logocontacto {
 		display: none;
 	}
@@ -2765,7 +2855,7 @@ animation-range: entry 0% cover 60%;
 		border-right: 1px solid rgb(197, 60, 52);
 
 	}
-
+*/
 	.centro {
 		float: none;
 		margin: 70px auto 0 0px;
@@ -2816,34 +2906,50 @@ animation-range: entry 0% cover 60%;
 		margin: 7% auto;
 	}
 
+	.imagenlema {
+
+	   background:transparent;
+		left: 0px;
+		width: 50px;
+		height: 60px;
+		top: 85px;
+   	}
+	.imagenlema img {
+		width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 700px) {
 	.imagenlema {
-		display: none;
+		top: 120px;
+	
 	}
 
 	.parrafotres {
-		width: 100%;
-		margin-left: 0%;
+		
 
 		margin-top: 7px;
 	}
-
+/*
 	.imagenlemacc {
 		display: block;
-	}
+	}*/
 
 	.cintro {
-		padding-bottom: 90px;
+		padding-bottom: 20px;
 	}
+	.main2 {
+		width: 65%;
+	}
+	
 }
 
 @media screen and (max-width: 530px) {
 
 	.main,
 	.main2 {
-		width: 100%;
+		width: 90%;
 	}
 
 	.qrcode {
@@ -2883,13 +2989,13 @@ animation-range: entry 0% cover 60%;
 	}
 
 	.wrapper3 {
-		width: 100%;
+		width: 90%;
 		min-width: 0px;
 		margin: auto;
 	}
 
 	.imagenlema {
-		display: none;
+		top: 150px;
 	}
 
 }
