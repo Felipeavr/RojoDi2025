@@ -1217,7 +1217,7 @@ p#ubica {
 	min-width: 800px;
 	height: auto;
 	background: rgba(255, 255, 255, 0.8);
-	margin: 70px auto 0px 20%;
+	margin: 70px auto auto auto;
 
 
 
@@ -2342,9 +2342,7 @@ animation-range: entry 0% cover 60%;
 		margin-top: 70px;
 	}
 
-	.wrapper3 {
-		margin: 40px auto auto 20%;
-	}
+
 
 }
 
@@ -2361,20 +2359,7 @@ animation-range: entry 0% cover 60%;
 }
 
 
-@media screen and (max-width: 1680px) {
 
-
-	.cycle-overlay {
-		bottom: -53px;
-	}
-
-
-
-
-
-
-
-}
 
 @media screen and (max-width: 1440px) {
 
@@ -2392,9 +2377,7 @@ animation-range: entry 0% cover 60%;
 		margin-top: 150px;
 	}
 
-	.wrapper3 {
-		margin-left: 12.5%;
-	}
+	
 
 
 
@@ -2419,7 +2402,7 @@ animation-range: entry 0% cover 60%;
 
 
 @media screen and (max-width: 1366px) {
-
+   
 
 	.cycle-overlay {
 		bottom: -46px;
@@ -2469,9 +2452,9 @@ animation-range: entry 0% cover 60%;
 	.cintro22 {
 		background: rgba(190, 190, 190, 0.8);
 	}
-	.wrapper3 {
+	/*.wrapper3 {
 		margin-left: 17.5%;
-	}
+	}*/
 
 
 }
@@ -2723,11 +2706,7 @@ animation-range: entry 0% cover 60%;
 }
 
 @media screen and (max-width: 960px) {
-	.main {
-
-		width: 70%;
-
-	}
+	
 	.main2 {
 		width: 70%;
 	}
@@ -2764,9 +2743,9 @@ animation-range: entry 0% cover 60%;
 	}
 
 	@media screen and (max-width: 900px){
-	.main{
+	/*.main{
 		width: 80%;
-	}
+	}*/
 }
 
 @media screen and (max-width: 845px) {
