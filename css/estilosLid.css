@@ -687,3 +687,7 @@
         top:200px;
     }
 }
+@media screen and (max-height: 400px){
+    .contenedorSlider {
+        margin-top:50px;
+}
