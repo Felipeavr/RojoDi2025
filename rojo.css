@@ -1979,14 +1979,14 @@ li:hover {
 }
 @media screen and (max-height: 400px) {
 	.cuadroestirado {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	.fondocont{
 		padding-bottom: 100px;
 	}
 
 	.cuadroestirado2 {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 }
 
